@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./client/styles.css" />
+    <title>File manager</title>
+  </head>
+  <body>
+    <div class="directory-block">
+      <div class="actions">
+        <div>
+          <h3>Ваше хранилище:</h3>
+          <button class="create-dir-button">Создать папку</button>
+        </div>
+
+        <form class="upload-file-form">
+          <input type="file" name="file" class="upload-file-input" required />
+          <button class="upload-file-button">Загрузить файл</button>
+        </form>
+      </div>
+      <p class="path">/</p>
+      <ul class="storage-list"></ul>
+    </div>
+  </body>
+  <script type="module" src="./client/js/main.js" defer></script>
+</html>

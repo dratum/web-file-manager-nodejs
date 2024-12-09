@@ -1,0 +1,43 @@
+* {
+	box-sizing: content-box;
+}
+.directory-block {
+	border: 1px solid black;
+	padding: 1rem;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px rgb(77, 76, 76);
+	margin: 5rem 5rem;
+	max-width: 1000px;
+}
+.actions {
+	display: flex;
+	justify-content: space-between;
+}
+.upload-file-form {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	border: 1px solid black;
+	width: 350px;
+	padding: 1rem;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px rgb(139, 137, 137);
+	background-color: rgba(238, 219, 110, 0.123);
+}
+
+.directory {
+	font-size: large;
+}
+li {
+	margin-top: 1rem;
+}
+
+.file {
+	display: flex;
+	gap: 4px;
+}
+li {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
